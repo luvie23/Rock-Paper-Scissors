@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!--
+    sounds = https://www.wavsource.com/
+    computerwinimage = https://unsplash.com/photos/lr5mTjURI5c?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+    bgimage = https://unsplash.com/photos/P43VRz8fLWs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+    youwinimage = https://unsplash.com/photos/ST12kKBZmM4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+
+-->
+
+<html lang="en" id="html">
 <head>
     <meta charset="UTF-8">
-    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <div id="lore"><span id="story">They were right, the AI turned evil. Defeat it in battle.</span></div>
+        <div id="buttons">
+            <button type="button" class="button" id="button1">ROCK</button>
+            <button type="button" class="button" id="button2">PAPER</button>
+            <button type="button" class="button" id="button3">SCISSORS</button>
+
+        </div>
+        <div id="results">
+            <span class="result" id="human">Human:</span>
+            <span class="result" id="computer">Computer:</span>
+        </div>
+        <span id="winner"></span>
+
+    </div>
     
+    <audio src="audio/losearound.wav" id="computerWins" class="sounds"></audio>
+    <audio src="audio/computerwins.wav" id="computerWon" class="sounds"></audio>
+    <audio src="audio/winaround.wav" id="humanWins" class="sounds"></audio>
+    <audio src="audio/humanwins.wav" id="humanWon" class="sounds"></audio>
+    <audio src="audio/draw.wav" id="draw" class="sounds"></audio>
 </body>
 </html>
