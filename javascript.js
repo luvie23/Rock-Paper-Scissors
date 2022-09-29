@@ -120,7 +120,7 @@ function winner(){
         setTimeout(function(){
             location.reload();
 
-        }, 3500); 
+        }, 6500); 
         
     } else if(computerScore == 5){
         whoWon.textContent = "Computer Won!";
