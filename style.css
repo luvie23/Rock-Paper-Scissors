@@ -14,6 +14,7 @@ body,html {
     display: flex;
     flex: 1;
     min-height: 20vh;
+    min-width: 20vh;
     align-items: center;
     justify-content: center;
 }
@@ -28,6 +29,7 @@ body,html {
     display: flex;
     flex: 1;
     min-height: 60vh;
+    min-width: 60vh;
     align-items: center;
     justify-content: center;
 }
@@ -35,7 +37,7 @@ body,html {
 .button {
     border: .4rem solid black;
     border-radius: 2rem;
-    margin: 5rem;
+    margin: 2rem;
     font-size: 3rem;
     font-weight: bolder;
     color: aliceblue;
@@ -61,6 +63,7 @@ body,html {
     align-items: center;
     justify-content: center;
     min-height: 20vh;
+    min-width: 20vh;
 }
 
 .result {
